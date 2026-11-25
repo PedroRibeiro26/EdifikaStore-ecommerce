@@ -62,3 +62,48 @@ body {
 .btn-buy:hover {
     background-color: rgb(22, 86, 28);
 }
+
+ footer {
+    background: linear-gradient(90deg, #1d5028, #28a745);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.footer-separador{
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1rem;
+}
+.footer-columns{
+    gap:8rem;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.footer-column{
+    min-width: 200px;
+    font-weight: 600;
+}
+.footer-column h5{
+    margin-bottom: 4rem;
+    padding: 24px;
+    margin: 0;
+    font-size: 30px;
+}
+.footer-column ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-column ul li{
+    margin-bottom: 0.5rem;
+    justify-content: center;
+}
+.footer-column ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3;
+}
+
+.footer-bottom {
+    padding: 25px;
+}
