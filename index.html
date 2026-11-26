@@ -40,6 +40,38 @@
             </div>
         </nav>
     </header>
+    <!--Carrossel de Imagens-->
+    <div id="carouselIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
+        <!--indicadores para o carousel-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"></button>
+        </div>
+        <!--Slides do carousel-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/carrousel-01.jpg" class="d-block w-100" alt="Promoção 1">
+            </div>
+            <div class="carousel-item active">
+                <img src="assets/carrousel-02.jpg" class="d-block w-100" alt="Promoção 2">
+            </div>
+            <div class="carousel-item active">
+                <img src="assets/carrousel-03.jpg" class="d-block w-100" alt="Promoção 3">
+            </div>
+        </div>
+
+        <!--controle anterior/próximo-->
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
 
     <!-- MAIN / CONTEUDO PRINCIPAL -->
     <div class="container">
