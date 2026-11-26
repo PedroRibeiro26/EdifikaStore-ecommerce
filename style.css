@@ -33,6 +33,13 @@ body {
     color: #333;
     margin-bottom: 8px;
     font-weight: 700;
+
+    /* alinha titulos de cards um com o outro */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.9rem;
 }
 
 .product-description {
@@ -40,6 +47,13 @@ body {
     color: #666;
     margin-bottom: 16px;
     min-height: 48px; /* isso aqui mantém a area do texto com tamanho fixo */
+
+    /* alinha descrições de cards um com o outro */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 4.1rem;
 }
 
 .product-price {
@@ -50,7 +64,7 @@ body {
 }
 
 .btn-buy {
-    background-color: green;
+    background-color: rgb(0, 162, 255);
     border: none;
     border-radius: 8px;
     color: white;
@@ -60,11 +74,11 @@ body {
     width: 100%;
 }
 .btn-buy:hover {
-    background-color: rgb(22, 86, 28);
+    background-color: rgb(62, 182, 252);
 }
 
 .navbar {
-    background: linear-gradient(90deg, #1d5028, #28a745);
+    background: linear-gradient(90deg, rgb(0, 162, 255), rgb(62, 182, 252));
     padding: 12px;
 }
 
@@ -83,7 +97,7 @@ body {
 }
 
  footer {
-    background: linear-gradient(90deg, #1d5028, #28a745);
+    background: linear-gradient(90deg, rgb(0, 162, 255), rgb(62, 182, 252));
     color: #fff;
     font-family: Arial, sans-serif;
 }
@@ -121,6 +135,10 @@ body {
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.3;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
 }
 
 .footer-bottom {

@@ -15,7 +15,7 @@ async function carregaProdutos() {
           <div class="product-info">
             <h3 class="product-title">${produto.title}</h3>
             <p class="product-description">${produto.description}</p>
-          <div class="product-price">${produto.price}</div>
+          <div class="product-price mt-auto">R$ ${produto.price}</div>
             <button class="btn-buy">Compra Agora</button>
           </div>
         </div>
