@@ -41,7 +41,6 @@ body {
 
     /* alinha titulos de cards um com o outro */
     display: -webkit-box;
-    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     min-height: 2.9rem;
@@ -55,7 +54,6 @@ body {
 
     /* alinha descrições de cards um com o outro */
     display: -webkit-box;
-    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     min-height: 4.1rem;
