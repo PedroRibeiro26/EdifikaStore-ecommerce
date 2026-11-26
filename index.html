@@ -13,7 +13,33 @@
 <body>
     <!-- precisa inserir aqui um header, um carrossel e banner -->
 
+    <header style="position:sticky; margin-bottom: 2rem; top: 0; z-index: 1;">
+        <nav class="navbar navbar-expand-lg">
+            <!-- lado esquerdo do header -->
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Edifika Store</a>
 
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#menu" id="menu"><i class="bi bi-list"></i></button>
+
+                <!-- lado direito do header-->
+                 <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Carrinho</a></li> <!-- colocar funcionalidade de carrinho -->
+                        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                
+                        <!-- logo no final do header -->
+                        <li class="nav-item ms-lg-3">
+                            <a class="btn btn-light d-flex align-items-center px-3 py-2" href="index.html">
+                                <img src="assets/logo.png" alt="logo-empresa-edifika" width="40" height="40" class="rounded-circle">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <!-- MAIN / CONTEUDO PRINCIPAL -->
     <div class="container">
