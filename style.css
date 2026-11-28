@@ -99,11 +99,22 @@ body {
     color: black !important;
 }
 
-.form-control {
-    max-width: 50%;
+h1 {
+    text-align: center;
 }
 
- footer {
+/* faz a barra de fora ficar azul */
+.barra-busca {
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.barra-busca:focus-within {
+    border-color: #86b7fe !important;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* RODAPÉ */
+footer {
     background: linear-gradient(90deg, rgb(0, 162, 255), rgb(62, 182, 252));
     color: #fff;
     font-family: Arial, sans-serif;

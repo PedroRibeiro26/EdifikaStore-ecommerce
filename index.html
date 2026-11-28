@@ -76,13 +76,29 @@
     <div class="container">
         <!-- barra de pesquisa antes dos cards -->
         <div>
-            <form id="form-busca" class="d-flex justify-content-center p-3" role="search">
-                <input id="campo-busca" class="form-control rounded-3" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-primary ms-1" type="submit">
-                    <i class="bi bi-search"></i>
-                </button>
+            <h1 class="display-5 p-4">O melhor material para sua obra você encontra aqui</h1>
+
+            <form id="form-busca" role="search" class="pb-4">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="barra-busca input-group rounded-pill border     overflow-hidden p-1">
+
+                            <input id="campo-busca" 
+                            class="form-control border-0 shadow-none"
+                            type="search"
+                            placeholder="O que está procurando?"
+                            aria-label="pesquisar"
+                            >
+
+                            <button class="btn btn-primary rounded-circle ms-1" type="submit">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
+        
         <div class="row" id="lista-produtos">
             <!-- aqui os card serão criados -->
         </div>
